@@ -36,3 +36,17 @@ This policy aligns with international security standards to ensure Milot Motors 
 ---
 **Approved by:** Ashley Joseph, GRC Lead  
 **Date:** February 2026
+
+
+## 8.0 Compliance Framework Mapping
+
+This section maps Milot Motors' internal controls to global regulatory standards to ensure audit readiness and data integrity.
+
+| Milot Motors Control | NIST CSF (v2.0) | ISO/IEC 27001:2022 |
+| :--- | :--- | :--- |
+| **Identity Management** | PR.AC-01 | Annex A 5.15 & 5.16 |
+| **MFA Requirements** | PR.AC-04 | Annex A 5.17 |
+| **Least Privilege Access** | PR.AC-03 | Annex A 8.2 |
+| **Remote Access / VPN** | PR.AC-05 | Annex A 6.7 |
+| **Quarterly Access Reviews** | GV.PO-01 | Annex A 5.18 |
+| **Password Complexity** | PR.AC-04 | Annex A 5.17 |
