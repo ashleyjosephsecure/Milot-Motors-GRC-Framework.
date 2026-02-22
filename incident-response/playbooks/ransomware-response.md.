@@ -1,0 +1,24 @@
+# Playbook: Ransomware Response (NIST-Aligned)
+**Scenario:** Systems are encrypted, a ransom note is displayed, or unusual mass file-renaming is detected.
+
+## 1. Detection & Analysis
+- **Identify the Strain:** Capture a screenshot of the ransom note and use tools (e.g., ID Ransomware) to identify the variant.
+- **Scope Assessment:** Determine which network segments and backups are affected.
+- **Check for Exfiltration:** Look for signs that data was stolen (Double Extortion) before encryption.
+
+## 2. Containment (Immediate Action)
+- **Isolate Systems:** Unplug ethernet cables or disable Wi-Fi on infected machines immediately.
+- **Network Kill Switch:** If widespread, take the shop network offline at the switch level.
+- **Do NOT Power Down:** Leave infected machines on (but isolated) to preserve volatile memory for forensics.
+
+## 3. Eradication & Recovery
+- **Backup Verification:** Check the integrity of "Air-Gapped" or Offline backups.
+- **System Rebuild:** Wipe infected drives and reinstall OS from clean images.
+- **Password Reset:** Force a global password reset for all users and service accounts.
+
+## 4. Post-Incident
+- **Root Cause Analysis:** How did they get in? (Phishing, RDP, Unpatched software?)
+- **The "No-Pay" Policy:** Milot Motors does not pay ransoms; we rely on immutable backups.
+
+
+
