@@ -1,0 +1,16 @@
+# Identity and Access Management (IAM) Policy
+**Objective:** To ensure only authorized personnel have access to Milot Motors' digital assets.
+
+## 1. The Principle of Least Privilege (PoLP)
+- Users are only granted the minimum access necessary to perform their job duties.
+- **Mechanics:** Access to service records only.
+- **Admissions/Office:** Access to billing and client PII only.
+- **Owner (You):** Full administrative access.
+
+## 2. Multi-Factor Authentication (MFA)
+- MFA is **mandatory** for all cloud accounts (GitHub, Email, Service Software).
+- Hardware keys (e.g., Yubikey) are preferred over SMS codes.
+
+## 3. Account Lifecycle
+- **Onboarding:** Identity verification (Gov-issued ID) required before account creation.
+- **Offboarding:** Access is revoked within 1 hour of employee termination.
