@@ -1,0 +1,13 @@
+# Risk Management Policy: Milot Motors
+**Objective:** To identify, assess, and mitigate risks that could disrupt Milot Motors' operations or data security.
+
+## 1. Risk Appetite
+Milot Motors has a **Low Risk Appetite** for customer data loss (PII) and a **Moderate Risk Appetite** for experimental shop technologies.
+
+## 2. Risk Assessment Process
+- **Identification:** Monthly scans for new hardware, software, or process vulnerabilities.
+- **Analysis:** Risks are ranked by Impact (1-5) and Likelihood (1-5).
+- **Treatment:** Every High-Risk item must be Mitigated, Transferred (Insurance), or Formally Accepted by the Owner.
+
+## 3. Roles
+- **Risk Officer (You):** Responsible for the Risk Register and annual policy reviews.
