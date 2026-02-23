@@ -50,3 +50,21 @@ This section maps Milot Motors' internal controls to global regulatory standards
 | **Remote Access / VPN** | PR.AC-05 | Annex A 6.7 |
 | **Quarterly Access Reviews** | GV.PO-01 | Annex A 5.18 |
 | **Password Complexity** | PR.AC-04 | Annex A 5.17 |
+
+
+
+
+The Principle of Least Privilege (PoLP)
+
+To mitigate the risk of unauthorized data exposure, Milot Motors strictly enforces the Principle of Least Privilege (PoLP), ensuring that every employee is granted only the minimum level of system access necessary to fulfill their specific job functions.
+
+> **Core Mandate:** To mitigate the risk of unauthorized data exposure, Milot Motors strictly enforces the Principle of Least Privilege (PoLP), ensuring that every employee is granted only the minimum level of system access necessary to fulfill their specific job functions.
+
+
+Role,Public Website,Customer PII (Sales),Vehicle Telemetry,System Admin Settings
+Sales Associate,✅ Read,✅ Read/Write,❌ No Access,❌ No Access
+Service Technician,✅ Read,❌ No Access,✅ Read/Write,❌ No Access
+Security Analyst (SOC),✅ Read,✅ Read,✅ Read,⚠️ Audit Only
+System Administrator,✅ Read/Write,✅ Read/Write,✅ Read/Write,✅ Full Control
+
+
