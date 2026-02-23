@@ -29,5 +29,5 @@ This framework establishes a comprehensive security and operational infrastructu
 - **Documentation:** SOPs, Risk Registers, and Audit Trails
 
 ## 👤 Author
-**Future GRC Architect | Biology Major | Operations Lead**
+**Future GRC Architect | Human Service Coordinator | Operations Lead**
 *Applying laboratory-grade precision to the digital asset world.*
