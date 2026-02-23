@@ -1,0 +1,4 @@
+Asset_ID, Description, Owner, Criticality, Location
+HW-001, Shop Laptop (Dell), Lead Mechanic, High, Bay 1
+HW-002, Diagnostic Tablet, Junior Tech, Medium, Mobile
+SW-001, G-Suite (Email), Admin, High, Cloud
