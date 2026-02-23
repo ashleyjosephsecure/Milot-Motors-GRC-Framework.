@@ -41,3 +41,8 @@ Clean Desk Policy: Sensitive client documents (loan apps/titles) must not be lef
 
 Workstation Lock: All computers must be set to auto-lock after 5 minutes of inactivity. This prevents "Walk-up" data theft.
 
+
+
+### [📊 Auditing & Monitoring](./auditing-monitoring/)
+*Internal audit checklists and log retention policies to ensure continuous compliance.*
+
